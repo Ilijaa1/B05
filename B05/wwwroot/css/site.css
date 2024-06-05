@@ -1,0 +1,118 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #FFEC8B;
+    font-family: Arial;
+    margin: 0;
+}
+
+h1 {
+    color: #008000;
+    text-align: center;
+    font-size: 52px;
+    font-weight: lighter;
+    margin: 20px;
+}
+
+nav {
+    background-color: #9bcd9b;
+    display: block;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar li a {
+    display: block;
+    padding: 10px 80px;
+    text-decoration: none;
+    color: #008000;
+}
+
+.navbar li a:hover {
+    background-color: #008000;
+    color: #FFEC8B;
+}
+
+table thead tr th {
+    border: groove;
+    margin: 25px;
+    padding: 15px;
+    background-color: #008000;
+    color: #FFEC8B;
+}
+
+tbody tr td {
+    border: groove;
+    background-color: #d5fda7;
+}
+
+table {
+    border: groove;
+    text-align: center;
+}
+
+img {
+    width: 50px;
+    width: 50px;
+}
+
+.glavna h3 {
+    margin-top: 30px;
+    color: #008000;
+    text-align: center;
+}
+
+.glavna #kultura {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    color: #008000;
+    font-size: 52px;
+}
+
+.glavna #muzicka {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    color: #008000;
+    font-size: 52px;
+}
+
+.glavna .telo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td a{
+    display: block;
+}

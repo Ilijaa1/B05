@@ -1,0 +1,104 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Pocetna strana";
+}
+
+<div class="glavna">
+    <h3>Звуци инструмената</h3>
+    <div class="telo">
+        <p>
+            <span id="muzicka">Музичка </span><span id="kultura">култура</span>
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Назив инструмента</th>
+                    <th>Слика инструмента</th>
+                    <th>Звук инструмента</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Гитара
+                    </td>
+                    <td>
+                        <a href="https://sh.wikipedia.org/wiki/Gitara"><img src="~/slike/gitara.jpg" /></a>
+                    </td>
+                    <td>
+                        <audio id="myAudio" src="~/audio/cat.mp3"></audio>
+                        <img id="zvucnik" src="~/slike/speaker.png" />
+                        <a asp-page="/Instrumenti/Zicani">Сазнајте више</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Виолина
+                    </td>
+                    <td>
+                        <a href="https://sh.wikipedia.org/wiki/Violina"><img src="~/slike/violina.jpg" /></a>
+                    </td>
+                    <td>
+                        <audio id="myAudio" src="~/audio/cat.mp3"></audio>
+                        <img id="zvucnik" src="~/slike/speaker.png" />
+                        <a asp-page="">Сазнајте више</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Клавир
+                    </td>
+                    <td>
+                        <a href="https://sh.wikipedia.org/wiki/Klavir"><img src="~/slike/klavir.jpg" /></a>
+                    </td>
+                    <td>
+                        <audio id="myAudio" src="~/audio/cat.mp3"></audio>
+                        <img id="zvucnik" src="~/slike/speaker.png" />
+                        <a asp-page="">Сазнајте више</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Бубњеви
+                    </td>
+                    <td>
+                        <a href="https://sh.wikipedia.org/wiki/Bubnjevi"><img src="~/slike/bubanj.jpg" /></a>
+                    </td>
+                    <td>
+                        <audio id="myAudio" src="~/audio/cat.mp3"></audio>
+                        <img id="zvucnik" src="~/slike/speaker.png" />
+                        <a asp-page="">Сазнајте више</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Хармоника
+                    </td>
+                    <td>
+                        <a href="https://sh.wikipedia.org/wiki/Harmonika"><img src="~/slike/harmonika.jpg" /></a>
+                    </td>
+                    <td>
+                        <audio id="myAudio" src="~/audio/cat.mp3"></audio>
+                        <img id="zvucnik" src="~/slike/speaker.png" />
+                        <a asp-page="">Сазнајте више</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Контрафагот
+                    </td>
+                    <td>
+                        <a href="https://sh.wikipedia.org/wiki/Kontrafagot"><img src="~/slike/kontrafagot.jpg" /></a>
+                    </td>
+                    <td>
+                        <audio id="myAudio" src="~/audio/cat.mp3"></audio>
+                        <img src="~/slike/speaker.png" />
+                        <a asp-page="">Сазнајте више</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
